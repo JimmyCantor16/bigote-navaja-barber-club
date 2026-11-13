@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserva tu cita · Bigote &amp; Navaja Barber Club</title>
+<meta name="description" content="Reserva tu cita · Bigote &amp; Navaja Barber Club">
+<meta name="theme-color" content="#191430">
+<link rel="icon" href="static/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="static/styles.css">
+<link rel="stylesheet" href="static/reservar.css">
+
+</head>
+<body class="pag-reservar">
+<div class="rs-fondo" aria-hidden="true"><span>Bigote &amp; Navaja Barber Club</span></div>
+<header class="rs-cab">
+<a class="rs-volver" href="./">&larr; Volver al inicio</a>
+<span class="rs-logo" aria-hidden="true">B</span>
+<h1>Reserva tu cita</h1>
+<p class="rs-negocio">Bigote &amp; Navaja Barber Club</p>
+<p class="rs-pill"><span class="rs-vivo"></span>Agenda abierta · Confirmación inmediata</p>
+</header>
+<main class="rs-main">
+<div class="rs-progreso"><p class="rs-paso-n" id="rs-paso-n"></p><p class="rs-paso-etq" id="rs-paso-etq"></p></div>
+<ol class="rs-pasos" id="rs-pasos"><li data-paso="1"><button type="button" disabled><span class="punto"></span><span class="etq">Servicio</span></button></li><li data-paso="2"><button type="button" disabled><span class="punto"></span><span class="etq">Profesional</span></button></li><li data-paso="3"><button type="button" disabled><span class="punto"></span><span class="etq">Fecha y hora</span></button></li><li data-paso="4"><button type="button" disabled><span class="punto"></span><span class="etq">Tus datos</span></button></li></ol>
+<section class="rs-tarjeta" id="rs-tarjeta" aria-live="polite"><p class="rs-cargando">Buscando horarios…</p></section>
+</main>
+<div class="rs-barra" id="rs-barra">
+<div class="rs-barra-in"><div class="rs-resumen" id="rs-resumen"><small>Servicio</small><b>Elige un servicio</b></div>
+<button type="button" class="btn" id="rs-seguir" disabled>Continuar</button></div>
+</div>
+<script id="rs-textos" type="application/json">{"titulo": "Reserva tu cita", "abierta": "Agenda abierta · Confirmación inmediata", "volver": "Volver al inicio", "paso": "Paso {n} de {t}", "p1": "Servicio", "p2": "Profesional", "p3": "Fecha y hora", "p4": "Tus datos", "q1": "¿Qué servicio necesitas?", "buscar": "Buscar servicio…", "q2": "¿Con quién quieres tu cita?", "cualquiera": "Cualquiera disponible", "cualquiera_sub": "Te asignamos a quien esté libre a esa hora", "q3": "Elige el día y la hora", "manana": "Mañana", "tarde": "Tarde", "noche": "Noche", "sin_huecos": "No quedan horarios este día. Prueba con otro.", "cargando": "Buscando horarios…", "cerrado": "Cerrado", "q4": "Confirma tus datos", "google_o": "o con tus datos", "conectado": "Conectado con Google como", "cambiar": "Usar otros datos", "nombre": "Nombre completo", "email": "Correo electrónico", "telefono": "Celular (opcional)", "nota": "¿Algo que debamos saber? (opcional)", "e_nombre": "Escribe tu nombre (mínimo 2 letras).", "e_email": "Escribe un correo válido.", "e_telefono": "El celular debe tener al menos 7 dígitos.", "continuar": "Continuar", "confirmar": "Confirmar reserva", "confirmando": "Confirmando…", "atras": "Atrás", "resumen_servicio": "Servicio", "resumen_vacio": "Elige un servicio", "listo": "¡Tu cita está confirmada!", "codigo": "Código de reserva", "correo_ok": "Te enviamos la confirmación a", "correo_no": "Guarda este código: lo necesitas para cambiar o cancelar.", "calendario": "Añadir a Google Calendar", "whatsapp": "Escribir al negocio", "otra": "Hacer otra reserva", "cancelar": "Cancelar esta cita", "cancelada": "Tu cita quedó cancelada.", "ocupado": "Esa hora se acaba de ocupar. Elige otra, por favor.", "fallo": "No pudimos confirmar la reserva. Inténtalo de nuevo.", "min": "min", "con": "con", "equipo": "Nuestro equipo"}</script>
+<script src="static/reservar.js" defer></script>
+
+</body>
+</html>

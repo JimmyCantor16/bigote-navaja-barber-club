@@ -1,0 +1,75 @@
+{
+  "nombre": "Bigote & Navaja Barber Club",
+  "email": "info@bigotenavaja.com",
+  "whatsapp": "573005550101",
+  "direccion": "Calle 10 # 25-30, El Poblado, Medellín, Medellín",
+  "zona_horas": -5,
+  "dias_adelante": 30,
+  "servicios": [
+    {
+      "id": "s1",
+      "nombre": "Corte Signature",
+      "descripcion": "Corte clásico con acabado impecable",
+      "precio": "$55.000",
+      "duracion": 50
+    },
+    {
+      "id": "s2",
+      "nombre": "Royal Shave Ritual",
+      "descripcion": "Afeitado con toalla caliente y productos premium",
+      "precio": "$55.000",
+      "duracion": 35
+    },
+    {
+      "id": "s3",
+      "nombre": "Gentleman's Package",
+      "descripcion": "Corte y barba al estilo tradicional",
+      "precio": "$100.000",
+      "duracion": 75
+    },
+    {
+      "id": "s4",
+      "nombre": "Spa facial",
+      "descripcion": "Limpieza profunda y masaje revitalizante",
+      "precio": "$70.000",
+      "duracion": 40
+    },
+    {
+      "id": "s5",
+      "nombre": "Arreglo de cejas",
+      "descripcion": "Diseño y depilación de cejas con precisión",
+      "precio": "$20.000",
+      "duracion": 15
+    }
+  ],
+  "profesionales": [
+    {
+      "id": "p1",
+      "nombre": "Julián Pérez",
+      "especialidad": "Corte y estilo"
+    },
+    {
+      "id": "p2",
+      "nombre": "Andrés Gómez",
+      "especialidad": "Afeitado tradicional"
+    },
+    {
+      "id": "p3",
+      "nombre": "Camilo Rodríguez",
+      "especialidad": "Spa facial y cejas"
+    }
+  ],
+  "agenda": {
+    "dias": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "apertura": "09:00",
+    "cierre": "20:00",
+    "intervalo": 30
+  }
+}
